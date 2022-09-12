@@ -28,3 +28,4 @@ r2 = round(random_number(0, 1), 4)
 p = round(random_number(0, 1), 4)
 with open('dominostats.json', 'w') as f:
     f.write(json.dumps({"R^2": r2, "p-value": p}))
+#
